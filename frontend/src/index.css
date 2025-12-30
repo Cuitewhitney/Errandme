@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-gray-50 text-gray-900 min-h-screen transition-colors duration-300;
+}
+
+html.dark {
+  @apply bg-gray-900 text-gray-100 min-h-screen transition-colors duration-300;
+}
+
+body {
+  @apply transition-colors duration-300;
+}
